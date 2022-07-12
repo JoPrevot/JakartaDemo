@@ -38,6 +38,7 @@ public class Directory {
         for(Customer c : customers){
             if(c.getId().equals(id)){
                 customers.remove(c);
+                break;
             }
         }
     }
